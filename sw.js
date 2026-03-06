@@ -1,5 +1,5 @@
-const CACHE = 'spz-v6';
-const ASSETS = ['./index.html', './manifest.json', './icon.svg'];
+const CACHE = 'spz-v7';
+const ASSETS = ['/scanSPZ/', '/scanSPZ/manifest.json', '/scanSPZ/icon.svg'];
 
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(ASSETS)));

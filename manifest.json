@@ -2,14 +2,14 @@
   "name": "SPZ Skener",
   "short_name": "SPZ",
   "description": "Rozpoznávání registračních značek pomocí AI",
-  "start_url": "./index.html",
+  "start_url": "/scanSPZ/",
   "display": "standalone",
   "background_color": "#080a0d",
   "theme_color": "#080a0d",
   "orientation": "portrait",
   "icons": [
     {
-      "src": "icon.svg",
+      "src": "/scanSPZ/icon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any maskable"
